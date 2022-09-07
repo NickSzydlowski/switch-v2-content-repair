@@ -1,0 +1,217 @@
+BODY { 
+	margin-top:20;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	padding:0;
+	background:#FFFFFF;
+	font-size: 11px; 
+	font-family: verdana, arial, helvetica; 
+}
+TABLE {
+	border-collapse : collapse;
+	border-spacing: 0px;			/* workes in mozilla*/
+	font-size: 11px; 
+	font-family: verdana, arial, helvetica; 	
+}
+TD {  
+	padding: 0px;
+	border : 0px solid #333366;
+	font-size: 11px; 
+	font-family: verdana, arial, helvetica; 	
+}
+
+
+
+TD.emblem {
+	padding-right: 5px;
+}
+
+
+
+TD.switchNavCont {
+	padding-bottom: 4px;
+}
+TD.switchNav {
+	background: #999999;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+TD.switchNavExt {
+	background: #CCCCCC;
+}
+
+
+
+TR.mainrow {
+	background: #444444;
+}
+
+
+	
+TD.themePic {
+	padding-right: 5px;
+	padding-bottom: 5px;
+}	
+
+
+	
+}TD.issueNav {
+	padding-bottom: 5px;
+}
+
+
+
+TD.DBoutput {
+	/*border: groove 1px lightblack;*/
+	background: #999999;
+	padding-left: 5px;
+	padding-right: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
+TD.extraObjs {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	/* font-weight:bold; */
+	color: #79687B;
+}
+
+
+/****************special objects start**************/
+
+TD.specialObjs {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: #999999;
+	font-weight:normal; 
+	font-size: 12px
+}
+
+TD.specialObjs P { color:#999999; font-weight:normal; font-size: 12px }
+TD.specialObjs A { color:#AAAAAA; font-weight:bold; font-size: 12px }
+TD.specialObjs A:hover { color:#f90; font-weight:bold }
+
+/****************special objects end**************/
+
+TD.switchAboutCont {
+	padding-top: 4px;
+}
+TD.switchAbout {
+	background: #999999;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+TD.switchAboutExt {
+	background: #CCCCCC;
+}
+
+
+
+TD.quote {
+	font-style: italic;
+	font-weight: 600;
+	color: #DDDDDD;
+
+}
+
+TD.keypoint {
+	background: #7F7F7F;
+	color: #2F2435;
+	font-size: 110%;
+	font-weight: 700;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px
+
+}
+
+
+/****************comments listing start**************/
+
+TD.commentHeaderOdd {
+	background: #534655;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+TD.commentHeaderEven {
+	background: #545766;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+TD.commentHeaderFocus {
+	background: #C40000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+TD.commentHeaderLine A { color:#AAAAAA; font-weight:normal; font-size: 12px }
+TD.commentHeaderSub A { color:#000000; font-weight:bold; font-size: 11px }
+TD.commentHeaderFocus A { color:#CCCCCC; font-weight:bold }
+TD.commentHeaderLine A:hover { color:#FFFFFF; }
+TD.commentHeaderSub A:hover { color:#f90; font-weight:bold }
+TD.commentHeaderFocus A:hover { color:#f90; font-weight:bold }
+
+
+/****************comments listing end**************/
+
+
+
+
+P {	
+	font-size: 11px; 
+	font-family: verdana, arial, helvetica; 
+}
+
+
+I.gray {color: #AAAAAA;}
+
+#handles aliases <et1> to <et6>
+B.et1 {font-weight:bold;}
+B.et2 {font-weight:bold; color: #574659; font-size: 110%;}
+B.et3 {font-weight:bold; color: #504152; font-size: 130%;}
+B.et4 {font-weight:bold; color: #423544; font-size: 160%;}
+B.et5 {font-weight:bold; color: #5F1B25; font-size: 200%;}
+B.et6 {font-weight:bold; color: #AE2629; font-size: 250%;}
+
+B.light { font-weight:normal; color:#666666; font-size: 100%; }
+B.ah1 {font-weight:bold; color: #403041; font-size: 110%;}
+
+B.abstract {font-weight:bold; color: #222111; font-size: 100%;}
+
+H1 {font-weight:bold; color: #AE2629; font-size: 20px;}
+H2 {font-weight:bold; color: #5F1B25; font-size: 15px;}
+H3 {font-weight:bold; color: #423544; font-size: 13px;}
+H4 {font-weight:bold; color: #504152; font-size: 11px;}
+H5 {font-weight:bold; color: #574659;}
+H6 {font-weight:bold;}
+
+
+
+A:link { color:#666666; font-weight:bold }
+A { color: #666666; font-weight:bold; text-decoration: none }
+/*A:alink { color: #469999; text-decoration: underline }
+A:vlink { color: #455787; text-decoration: none }*/
+A:hover { color: #f90; text-decoration: underline }
+A.small { font-weight:normal; font-size: 85%; }
+A.header { font-weight:bold; color: #403041; font-size: 110%; }
+
+
